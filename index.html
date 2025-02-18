@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaf Irza</title>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Mencegah scroll tak perlu */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            border: none;
+            background-color: #003092;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0073e6;
+        }
+        .carousel-container {
+            width: 40%;
+            max-width: 600px;
+            overflow: hidden;
+            position: relative;
+
+        }
+        .carousel {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+        }
+        #page3 p {
+            max-width: 70%;
+            max-height: 80vh;
+            padding: 20px;
+            font-size: 16px;
+            text-align: left;
+            line-height: 1.6;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow-y: auto;
+        }
+        audio {
+            display: none; /* Sembunyikan audio player */
+        }
+    </style>
+</head>
+<body>
+    <audio class="song" loop autoplay>
+        <source src="./song/Blessed.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <div class="container" id="page1">
+        <h1>Hi Irza!</h1>
+        <p> ini ada sesuatu untuk kamu, maaf ya aku bikin ini dan ga ngomong secara langsung hehe</p>
+        <button onclick="nextPage(2)">lanjut yuk!</button>
+    </div>
+    
+    <div class="container" id="page2" style="display: none;">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="images/image1.jpg" alt="Foto 1">
+                <img src="images/image2.jpg" alt="Foto 2">
+                <img src="images/image3.jpg" alt="Foto 3">
+                <img src="images/image4.jpg" alt="Foto 4">
+                <img src="images/image5.jpg" alt="Foto 5">
+                <img src="images/image6.jpg" alt="Foto 6">
+                <img src="images/image7.jpg" alt="Foto 7">
+                <img src="images/image8.jpg" alt="Foto 8">
+                <img src="images/image9.jpg" alt="Foto 9">
+                <img src="images/image10.jpg" alt="Foto 10">
+                <img src="images/image11.jpg" alt="Foto 11">
+                <img src="images/image12.jpg" alt="Foto 12">
+                <img src="images/image13.jpg" alt="Foto 13">
+                <img src="images/image14.jpg" alt="Foto 14">
+                <img src="images/image15.jpg" alt="Foto 15">
+            </div>
+            
+            <div>
+                <p>Thank you for making me so happy and trying your best for me.  </p>
+            </div>
+        </div>
+        <button onclick="nextPage(3)">Next</button>
+    </div>
+    
+    <div class="container" id="page3" style="display: none;">
+        <p>
+            hai mas! <br> 
+            aku tau kamu gaada waktu buat hal yang ga penting lagi dan ga peduli jg sebenernya hehe
+            tapi aku minta waktu 3-5 menit ya buat kamu baca ini :) <br>
+            <br>
+            aku tau kita kemarin punya ending yang buruk banget apalagi lagi respon ku dan aku yakin kamu udh lewatin hal kemarin dengan baik dan mungkin skrg udh ga kepikiran , aku cuman mau bilang Terima Kasih ya mas udah bantuin aku banyak hal, udah baik sama aku, sharing banyak hal sama aku, ngajarin aku ngelihat sesuatu, yang pasti juga berdampak untuk planning buat hidup ku kedepan nya, aku bersyukur banget pernah jadi perempuan yang kamu sayang. <br>
+            <br>
+            semua yang kamu bilang itu benar mas dan wajar sekali dengan marahmu kemarin, gaada orang yang pantes di perlakukan kayak gitu, aku gamikir perasaan orang lain gampangin juga orang2, padahal kamu udah sekuat tenaga kamu buat narik aku ke tempat yang terang tapi aku nya yang tetep pengen dan menjebakan diri di tempat yang gelap itu lagi, aku tau juga semua yang kamu minta kemarin itu hal yang mudah dan wajar di lakukan buat pasangan.  aku juga ga pernah nge fulfill kamu, kalo bisa aku pengen tarik semua nya za omongan aku pas kamu putusin aku, aku tau harus nya bisa lebih baik responnya dan mikirin perasaan kamu buat jawab nya padahal aku disitu salah 
+            aku minta maaf za <br>
+            <br>
+            aku mau bersyukur pernah ketemu kamu aja kayak rasanya ga pantes hehe <br>
+            <br> 
+            
+            aku disini juga pasti selalu di selimuti rasa penyesalan ku za, tapi ya kata kamu udah bukan waktu nya untuk itu lagi kan? tapi dari perginya kamu kemarin aku banyak belajar untuk lebih menghargai orang lain <br>
+            terima kasih ya za!
+            <br>
+            <br>
+            
+            dan untung nya sekarang dunia udah ga ngasih kita cara untuk ketemu lagi ya za setelah ini hahaha jadi nya bisa mempermudah kamu buat ga inget aku lagi <br>
+            <br>
+            good luck yaa za buat kuliah dan kehidupan mu, semoga planning mu semua terkabul (aku yakin kamu bisa gapai semua mimpi kamu, aku selalu yakin sama kamu mas) <br> bahagia teruss yaa aku yakin banyak hal baik yang akan datang ke kamu <br>
+            <br>
+            <br>
+            sekali lagi terima kasih ya udah ngajarin banyak hal dan jadi bikin aku yang kayak sekarang atau bahkan buat diri aku kedepan nya 
+            <br>
+            <br>
+            goodby mas, <br>
+            terima kasih banyak yaa!</p>
+        </p>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            document.getElementById("page1").style.display = "none";
+            document.getElementById("page2").style.display = "none";
+            document.getElementById("page3").style.display = "none";
+            document.getElementById("page" + page).style.display = "flex";
+
+            let audio = document.getElementById("backgroundMusic");
+            if (page === 2) {
+                audio.play().catch(error => console.log("Autoplay blocked:", error));
+            }
+            if (page === 3) {
+                audio.pause();
+            }
+        }
+
+        let currentIndex = 0;
+        function slideCarousel() {
+            const carousel = document.getElementById("carousel");
+            const totalImages = document.querySelectorAll(".carousel img").length;
+            currentIndex = (currentIndex + 1) % totalImages;
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+        setInterval(slideCarousel, 2000);
+
+        
+    </script>
+</body>
+</html>
